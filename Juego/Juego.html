@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PirateGame</title>
+    <style>
+        body {
+            background-color: #ffcccc;
+            background-image: url('https://cdn.thewirecutter.com/wp-content/media/2023/11/giftsforgamers-2048px-3128-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=980&dpr=1.5');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        h1 {
+            font-size: 4em;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        nav {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        form {
+            display: inline-block;
+        }
+
+        input[type="text"],
+        button {
+            font-size: 1.2em;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        section {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.5em;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PirateGame</h1>
+    </header>
+    <nav>
+        <form action="buscar.php" method="get">
+            <input type="text" name="categoria" placeholder="Buscar juegos...">
+            <button type="submit">Buscar</button>
+        </form>
+    </nav>
+    <section>
+        <h2>Categorías</h2>
+        <ul>
+            <li><a href="terror.html">Terror</a></li>
+            <li><a href="accion.html">Acción</a></li>
+            <li><a href="mundo_abierto.html">Mundo Abierto</a></li>
+            <li><a href="free_to_play.html">Free To Play</a></li>
+            <li><a href="supervivencia.html">Supervivencia</a></li>
+            <li><a href="carreras.html">Carreras</a></li>
+        </ul>
+    </section>
+</body>
+</html>
